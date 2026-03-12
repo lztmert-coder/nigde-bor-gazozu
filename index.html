@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Niğde Bor Gazozu | Tanıtım</title>
+  <meta name="description" content="Niğde Bor gazozu hakkında tanıtım sitesi." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="logo">NBG</span>
+        <div>
+          <h1>Niğde Bor Gazozu</h1>
+          <p class="tagline">Bor’dan gelen yerel gazoz kültürü</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#hakkinda">Hakkında</a>
+        <a href="#galeri">Galeri</a>
+        <a href="#iletisim">İletişim</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div>
+          <h2>Serinletici bir klasik</h2>
+          <p>Bu sayfa Niğde’nin Bor ilçesiyle anılan gazoz kültürünü tanıtmak için hazırlanmıştır.</p>
+          <div class="cta">
+            <a class="btn" href="#hakkinda">Tanıtımı Oku</a>
+            <a class="btn btn-outline" href="#iletisim">İletişim</a>
+          </div>
+          <p class="note">Not: Bu bir tanıtım/fan sayfasıysa bunu belirtmek iyi olur.</p>
+        </div>
+
+        <div class="card">
+          <h3>Hızlı Bilgi</h3>
+          <ul>
+            <li>Ücretsiz yayın (GitHub Pages)</li>
+            <li>Telefon/PC uyumlu</li>
+            <li>İstediğin gibi düzenlenebilir</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="hakkinda" class="section">
+      <div class="container">
+        <h2>Hakkında</h2>
+        <p>
+          Bor / Niğde yöresinin yerel gazoz kültürü, yaz aylarında serinlemekten nostaljiye kadar
+          birçok anıyla birlikte anılır. Buraya kendi tarihçe metnini ekleyebilirsin.
+        </p>
+      </div>
+    </section>
+
+    <section id="galeri" class="section alt">
+      <div class="container">
+        <h2>Galeri</h2>
+        <p>Foto eklemek için aşağıdaki kutular yerine resim koyacağız (aşağıda anlatıyorum).</p>
+        <div class="grid three">
+          <div class="ph">Foto 1</div>
+          <div class="ph">Foto 2</div>
+          <div class="ph">Foto 3</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="iletisim" class="section">
+      <div class="container">
+        <h2>İletişim</h2>
+        <ul>
+          <li><b>E-posta:</b> <a href="mailto:ornek@mail.com">ornek@mail.com</a></li>
+          <li><b>Konum:</b> Bor / Niğde</li>
+        </ul>
+
+        <footer class="site-footer">
+          <p>© <span id="yil"></span> Niğde Bor Gazozu</p>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById("yil").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
